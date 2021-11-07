@@ -1,9 +1,9 @@
 #include <iostream>
 
 auto main() -> int {
-	int a,b,c,srednia;
-	std::cout << "podaj 3 liczby"
-	std::cin >> a,b,c;
-	std::cout (a+b+c)/3;
+	int a,b,c,d;
+	std::cout << "podaj 4 liczby"
+	std::cin >> a,b,c,d;
+	std::cout >> (a+b+c+d)/4;
 	return 0;
 }
